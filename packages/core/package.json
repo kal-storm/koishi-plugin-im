@@ -39,11 +39,13 @@
     }
   },
   "peerDependencies": {
+    "@cordisjs/plugin-webui": "^0.1.12",
     "minato": "^3.5.0"
   },
   "devDependencies": {
     "@cordisjs/client": "^0.1.12",
     "@cordisjs/plugin-server": "^0.2.3",
+    "@cordisjs/plugin-webui": "^0.1.12",
     "@satorijs/core": "^4.2.6",
     "@types/mime-types": "^2",
     "minato": "^3.5.0"
@@ -51,6 +53,7 @@
   "dependencies": {
     "@satorijs/core": "^4.2.6",
     "@satorijs/plugin-im-utils": "^0.0.0",
+    "cordis": "^3.18.1",
     "cosmokit": "^1.6.2",
     "mime-types": "^2.1.35"
   }
